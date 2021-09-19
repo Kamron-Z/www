@@ -1,0 +1,57 @@
+.intro {
+   padding: 100px 0 120px;
+   border-bottom: 1px solid rgba($black, .3);
+
+   position: relative;
+
+   &__person__img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      background: url(../img/person_bg_stars.png) center no-repeat;
+   }
+
+   &__sup {
+      font-size: 32px;
+      font-weight: 200;
+   }
+
+   &__title {
+      font-size: 45px;
+      font-weight: 700;
+      width: 50%;
+      margin: 20px 0;
+   }
+
+   &__pro {
+      font-size: 18px;
+      opacity: .7;
+      text-transform: uppercase;
+      margin-bottom: 26px;
+   }
+
+   &__ {
+      display: flex;
+   }
+
+   &__btn {
+      margin-top: 42px;
+   }
+}
+
+.social__link {
+   margin: 0 5px;
+   display: inline-block;
+
+   transition: all .3s ease;
+
+   &:hover {
+      transform: translateY(-5px);
+   }
+
+   & img {
+      width: 41px;
+      height: 41px;
+   }
+}
